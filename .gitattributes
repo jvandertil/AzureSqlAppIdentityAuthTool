@@ -1,0 +1,9 @@
+# Normalize line endings automatically
+* text=auto
+
+# Use csharp diff driver
+*.cs     diff=csharp
+
+# Force windows line endings
+*.sln        text eol=crlf
+*.csproj     text eol=crlf
