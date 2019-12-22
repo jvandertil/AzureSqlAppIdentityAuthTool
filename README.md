@@ -1,6 +1,6 @@
 # Azure SQL Managed Identity Authorization Tool
 
-This tool can help you by authorizing the managed application identity in a Azure SQL database.
+This tool can help you by authorizing the managed service identity in a Azure SQL database.
 
 Essentially this tools allows you to perform the following SQL statements:
 ```sql
@@ -26,3 +26,4 @@ You can optionally choose to skip adding the identity to a role by passing one (
 ```
 
 More information is available in the tutorial in the [Microsoft Docs](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-connect-msi#use-managed-identity-connectivity).
+For integration in Azure DevOps see my [blog post](https://www.jvandertil.nl/posts/2019-12-22_authorizingmanagedserviceidentityazuresql/).
