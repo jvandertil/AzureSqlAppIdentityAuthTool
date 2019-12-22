@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2747523D-CBD6-4323-98EF-5FE6F8B7F3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSqlAppIdentityAuthTool", "src\AzureSqlAppIdentityAuthTool\AzureSqlAppIdentityAuthTool.csproj", "{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0840F1E1-CC3B-43FD-8517-0B9DBF45F1A7} = {2747523D-CBD6-4323-98EF-5FE6F8B7F3CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D48EF072-765F-4D17-9B8A-29E428D07F88}
+	EndGlobalSection
+EndGlobal
