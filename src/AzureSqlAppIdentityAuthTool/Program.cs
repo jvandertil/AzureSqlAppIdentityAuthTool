@@ -10,7 +10,7 @@ namespace AzureSqlAppIdentityAuthTool
     {
         public class Options
         {
-            [Option('c', "connectionstring", Required = true, HelpText = "The SQL server connection string to use. Should use Azure AD authentication.")]
+            [Option('c', "connection-string", Required = true, HelpText = "The SQL server connection string to use. Should use Azure AD authentication.")]
             public string ConnectionString { get; set; } = null!; // Will result in NotParsed if missing.
 
             [Option('i', "identity", Required = true, HelpText = "The managed identity to authorize")]
