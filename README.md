@@ -1,3 +1,5 @@
+[![Build status](https://dev.azure.com/jvandertil/OpenSource/_apis/build/status/GitHub/jvandertil/AzureSqlAppIdentityAuthTool.CI)](https://dev.azure.com/jvandertil/OpenSource/_build/latest?definitionId=10)
+
 # Azure SQL Managed Identity Authorization Tool
 
 This tool can help you by authorizing the managed service identity in a Azure SQL database.
