@@ -1,5 +1,6 @@
+@echo off
 dotnet restore
 
-dotnet build -c Release
+dotnet build --no-restore -c Release
 
-dotnet publish -c Release src\AzureSqlAppIdentityAuthTool\AzureSqlAppIdentityAuthTool.csproj --output artifacts\AzureSqlAppIdentityAuthTool
+dotnet publish --no-build -c Release src\AzureSqlAppIdentityAuthTool\AzureSqlAppIdentityAuthTool.csproj --output artifacts\AzureSqlAppIdentityAuthTool
